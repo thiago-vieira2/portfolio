@@ -1,0 +1,36 @@
+* {
+    border: 1px solid green;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding-left: 20vh;
+  
+    .texto {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    h1 {
+        color: #C9F2C7;
+        font-size: 10vh;
+        cursor: default;
+    }
+
+    .neymar2015 {
+        height: 5vh; // Ajuste o valor conforme necessário
+        width: 4        0vh; // A largura precisa ser razoável
+        display: flex; // Flexbox ajuda a controlar o layout interno
+        align-items: center; // Alinha o conteúdo verticalmente
+        justify-content: center; // Centraliza o conteúdo horizontalmente
+
+        p {
+            color: #C9F2C7;
+            font-size: 3vh; // Ajuste o tamanho da fonte conforme necessário
+            line-height: 1vh; // Controla o espaçamento vertical do texto
+        }
+    }
+}

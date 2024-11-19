@@ -1,0 +1,51 @@
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vh;
+    padding-top: 25vh;
+
+    .quadrado {
+        background-color: #C9F2C7;
+        border-radius: 70px;
+        height: 40vh;
+        width: 40vh;
+
+        text-align: center;
+        transition: 1s;
+        cursor: default;
+
+
+        &:hover {
+            
+            transition: 1s;
+            transform: scale(1.1);
+        }
+
+
+    }
+
+
+    .nome {
+        
+        display: flex;
+        gap: 2vh;
+        flex-direction: column;
+
+    h1{
+        color: #C9F2C7;
+        font-size: 10vh;
+        cursor: default;
+  
+      }
+
+      h3{
+        color: #C9F2C7;
+        font-size: 4vh;
+        cursor: default;
+  
+  
+      }
+    }
+}
