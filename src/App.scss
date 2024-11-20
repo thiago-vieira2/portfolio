@@ -1,0 +1,12 @@
+.App {
+    display: flex;
+    flex-direction: column;
+  
+    .sla2 {
+      display: flex;
+      flex-direction: column; /* Coloca os componentes em coluna */
+      gap: 20vh; /* Define o espaço entre os componentes */
+      padding: 2vh; /* Adiciona um preenchimento geral */
+    }
+  }
+  
